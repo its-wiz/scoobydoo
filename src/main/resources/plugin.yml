@@ -1,0 +1,5 @@
+name: scoobydoo
+version: '${project.version}'
+main: org.itsrune.scoobydoo.Scoobydoo
+authors: [itsrune]
+depend: [ProtocolLib]
