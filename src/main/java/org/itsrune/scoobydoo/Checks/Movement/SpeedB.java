@@ -14,7 +14,7 @@ import java.util.UUID;
 
 public class SpeedB extends Check {
 
-    public static HashMap<UUID, Double> playerVelocityMovement = new HashMap<>();
+    public static HashMap<UUID, Double> playerVelocityMovement = new HashMap<>(); // Need to take more velocity samples for more accuracy.
     public SpeedB() {
         super(Misc.CheckType.MOVEMENT, true);
     }
